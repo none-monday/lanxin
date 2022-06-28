@@ -768,6 +768,12 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .glide__slide h3 {
+    display: none;
+  }
+  .glide__slide button {
+    margin-top: 10px;
+  }
   section,
   .footer-menus {
     padding: 0 40px;
@@ -812,6 +818,12 @@ footer {
 }
 
 @media (max-width: 576px) {
+  .glide__slide h3 {
+    display: none;
+  }
+  .glide__slide button {
+    margin-top: 10px;
+  }
   .slide-caption h1 {
     font-size: 28px;
   } 
